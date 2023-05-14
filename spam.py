@@ -8,6 +8,4 @@ def SendMessage():
         pyautogui.typewrite(each_line)
         time.sleep(0.5)
         pyautogui.press('enter')
-        
-
 SendMessage()
